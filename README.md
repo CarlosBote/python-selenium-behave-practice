@@ -66,6 +66,29 @@ The directory architecture must have the following structure
         ├── requirements.txt
         └── README.md
 
+## version the project iun a remote repository
+### 1. version locally with git
+execute the below commands:
+
+initiate local git repository: `git init`
+
+add the files to the staging area: `git add .`
+
+Do the first commit: `git commit -m "first commit"`
+
+Create a branch: `git branch -M main`
+
+### 2. Version remotely 
+
+Create a remote repository in GitLab or GitHub
+
+add the remote repository`git remote add origin «URL_of_your_remote_repository»`
+
+push the changes of your local repository to the remote `git push -u origin main`
+
+
+
+
         
 
 
